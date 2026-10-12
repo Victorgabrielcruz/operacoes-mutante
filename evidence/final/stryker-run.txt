@@ -1,0 +1,203 @@
+[32m19:09:56 (21340) INFO ProjectReader[39m Found 1 of 8 file(s) to be mutated.
+[32m19:09:56 (21340) INFO Instrumenter[39m Instrumented 1 source file(s) with 213 mutant(s)
+[32m19:09:56 (21340) INFO ConcurrencyTokenProvider[39m Creating 2 test runner process(es).
+[32m19:09:57 (21340) INFO BroadcastReporter[39m Detected that current console does not support the "progress" reporter, downgrading to "progress-append-only" reporter
+[32m19:09:57 (21340) INFO DryRunExecutor[39m Starting initial test run (jest test runner with "perTest" coverage analysis). This may take a while.
+[32m19:09:58 (21340) INFO DryRunExecutor[39m Initial test run succeeded. Ran 117 tests in 0 seconds (net 36 ms, overhead 615 ms).
+Mutation testing 60% (elapsed: <1m, remaining: <1m) 141/213 tested (5 survived, 6 timed out)
+
+All tests/operacoes.test.js
+  ✓ Suíte de testes para 50 operações aritméticas 1. deve somar dois números positivos [line 15] (killed 3)
+  ✓ Suíte de testes para 50 operações aritméticas 2. deve subtrair dois números positivos [line 16] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 3. deve multiplicar dois números positivos [line 17] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 4. deve dividir e lançar erro para divisão por zero [line 18] (killed 6)
+  ✓ Suíte de testes para 50 operações aritméticas 5. deve calcular a potência com expoente positivo [line 22] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 6. deve calcular a raiz quadrada de um quadrado perfeito [line 23] (killed 3)
+  ✓ Suíte de testes para 50 operações aritméticas 7. deve retornar o resto da divisão [line 24] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 8. deve calcular o fatorial de um número maior que 1 [line 25] (killed 11)
+  ✓ Suíte de testes para 50 operações aritméticas 9. deve calcular a média de um array com múltiplos elementos [line 26] (killed 7)
+  ~ Suíte de testes para 50 operações aritméticas 10. deve somar um array com múltiplos elementos [line 27] (covered 3)
+  ✓ Suíte de testes para 50 operações aritméticas 11. deve encontrar o valor máximo em um array [line 30] (killed 4)
+  ✓ Suíte de testes para 50 operações aritméticas 12. deve encontrar o valor mínimo em um array [line 31] (killed 4)
+  ✓ Suíte de testes para 50 operações aritméticas 13. deve retornar o valor absoluto de um número negativo [line 32] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 14. deve arredondar um número para cima [line 33] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 15. deve distinguir números pares e ímpares [line 34] (killed 5)
+  ✓ Suíte de testes para 50 operações aritméticas 16. deve distinguir números ímpares e pares [line 38] (killed 5)
+  ✓ Suíte de testes para 50 operações aritméticas 17. deve calcular uma porcentagem simples [line 42] (killed 3)
+  ✓ Suíte de testes para 50 operações aritméticas 18. deve aumentar um valor em uma porcentagem [line 43] (killed 4)
+  ✓ Suíte de testes para 50 operações aritméticas 19. deve diminuir um valor em uma porcentagem [line 44] (killed 4)
+  ✓ Suíte de testes para 50 operações aritméticas 20. deve inverter o sinal de um número positivo [line 45] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 21. deve calcular o seno de 0 [line 48] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 22. deve calcular o cosseno de 0 [line 49] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 23. deve calcular a tangente de 0 [line 50] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 24. deve calcular o logaritmo natural de Euler [line 51] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 25. deve calcular o logaritmo na base 10 [line 52] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 26. deve arredondar para baixo [line 53] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 27. deve arredondar para cima [line 54] (killed 1)
+  ✓ Suíte de testes para 50 operações aritméticas 28. deve calcular a hipotenusa de um triângulo retângulo [line 55] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 29. deve converter graus para radianos [line 56] (killed 3)
+  ✓ Suíte de testes para 50 operações aritméticas 30. deve converter radianos para graus [line 57] (killed 3)
+  ✓ Suíte de testes para 50 operações aritméticas 31. deve calcular o MDC de dois números [line 60] (killed 3)
+  ✓ Suíte de testes para 50 operações aritméticas 32. deve calcular o MMC de dois números [line 61] (killed 3)
+  ✓ Suíte de testes para 50 operações aritméticas 33. deve distinguir números primos e compostos [line 62] (killed 14)
+  ✓ Suíte de testes para 50 operações aritméticas 34. deve calcular o 10º termo de Fibonacci [line 66] (killed 5)
+  ✓ Suíte de testes para 50 operações aritméticas 35. deve calcular o produto de um array [line 67] (killed 5)
+  ✓ Suíte de testes para 50 operações aritméticas 36. deve limitar valores abaixo, dentro e acima do intervalo [line 68] (killed 7)
+  ✓ Suíte de testes para 50 operações aritméticas 37. deve verificar resultados verdadeiros e falsos de divisibilidade [line 73] (killed 5)
+  ✓ Suíte de testes para 50 operações aritméticas 38. deve converter Celsius para Fahrenheit em dois pontos de referência [line 77] (killed 4)
+  ✓ Suíte de testes para 50 operações aritméticas 39. deve converter Fahrenheit para Celsius em dois pontos de referência [line 81] (killed 4)
+  ✓ Suíte de testes para 50 operações aritméticas 40. deve calcular o inverso de um número [line 85] (killed 4)
+  ✓ Suíte de testes para 50 operações aritméticas 41. deve calcular a área de um círculo [line 88] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 42. deve calcular a área de um retângulo [line 89] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 43. deve calcular o perímetro de um retângulo [line 90] (killed 3)
+  ✓ Suíte de testes para 50 operações aritméticas 44. deve distinguir maior, menor e igual na comparação estrita [line 91] (killed 5)
+  ✓ Suíte de testes para 50 operações aritméticas 45. deve distinguir menor, maior e igual na comparação estrita [line 96] (killed 5)
+  ✓ Suíte de testes para 50 operações aritméticas 46. deve comparar igualdade sem converter os tipos [line 101] (killed 4)
+  ✓ Suíte de testes para 50 operações aritméticas 47. deve calcular a mediana de um array ímpar e ordenado [line 106] (killed 7)
+  ✓ Suíte de testes para 50 operações aritméticas 48. deve calcular o dobro de um número [line 107] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 49. deve calcular o triplo de um número [line 108] (killed 2)
+  ✓ Suíte de testes para 50 operações aritméticas 50. deve calcular a metade de um número [line 109] (killed 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos soma com negativo [line 127] (covered 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos subtração com resultado negativo [line 127] (covered 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos multiplicação por zero [line 127] (covered 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos multiplicação por negativo [line 127] (covered 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos divisão com negativo [line 127] (covered 5)
+  ~ Casos de limite, entradas negativas e caminhos alternativos divisão com resultado fracionário [line 127] (covered 5)
+  ~ Casos de limite, entradas negativas e caminhos alternativos potência com expoente zero [line 127] (covered 1)
+  ~ Casos de limite, entradas negativas e caminhos alternativos potência com expoente negativo [line 127] (covered 1)
+  ~ Casos de limite, entradas negativas e caminhos alternativos resto de divisão exata [line 127] (covered 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos MDC com mais de uma iteração [line 127] (covered 5)
+  ~ Casos de limite, entradas negativas e caminhos alternativos MDC com segundo operando zero [line 127] (covered 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos MMC de números coprimos [line 127] (covered 8)
+  ~ Casos de limite, entradas negativas e caminhos alternativos MMC com zero [line 127] (covered 8)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos raiz quadrada de 0 inclui o limite zero [line 131] (killed 1)
+  ~ Casos de limite, entradas negativas e caminhos alternativos raiz quadrada de 1 inclui o limite zero [line 131] (covered 5)
+  ~ Casos de limite, entradas negativas e caminhos alternativos raiz quadrada de 25 inclui o limite zero [line 131] (covered 5)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos raiz quadrada rejeita negativos com a mensagem esperada [line 135] (killed 2)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos fatorial(0) = 1 [line 141] (killed 1)
+  ~ Casos de limite, entradas negativas e caminhos alternativos fatorial(1) = 1 [line 141] (covered 12)
+  ~ Casos de limite, entradas negativas e caminhos alternativos fatorial(2) = 2 [line 141] (covered 18)
+  ~ Casos de limite, entradas negativas e caminhos alternativos fatorial(5) = 120 [line 141] (covered 18)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos fatorial rejeita negativos com a mensagem esperada [line 145] (killed 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos soma vazia [line 162] (covered 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos soma com único elemento [line 162] (covered 3)
+  ~ Casos de limite, entradas negativas e caminhos alternativos soma com positivos e negativos [line 162] (covered 3)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos média vazia [line 162] (killed 1)
+  ~ Casos de limite, entradas negativas e caminhos alternativos média com único elemento [line 162] (covered 8)
+  ~ Casos de limite, entradas negativas e caminhos alternativos média fracionária [line 162] (covered 8)
+  ~ Casos de limite, entradas negativas e caminhos alternativos produto vazio [line 162] (covered 4)
+  ~ Casos de limite, entradas negativas e caminhos alternativos produto com único elemento [line 162] (covered 6)
+  ~ Casos de limite, entradas negativas e caminhos alternativos produto com zero [line 162] (covered 6)
+  ~ Casos de limite, entradas negativas e caminhos alternativos produto com negativos [line 162] (covered 6)
+  ~ Casos de limite, entradas negativas e caminhos alternativos máximo entre negativos [line 162] (covered 5)
+  ~ Casos de limite, entradas negativas e caminhos alternativos mínimo entre negativos [line 162] (covered 5)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos máximo rejeita array vazio com a mensagem esperada [line 170] (killed 2)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos mínimo rejeita array vazio com a mensagem esperada [line 170] (killed 2)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos mediana rejeita array vazio com a mensagem esperada [line 170] (killed 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos paridade de -2: par=true, ímpar=false [line 174] (covered 10)
+  ~ Casos de limite, entradas negativas e caminhos alternativos paridade de -1: par=false, ímpar=true [line 174] (covered 10)
+  ~ Casos de limite, entradas negativas e caminhos alternativos paridade de 0: par=true, ímpar=false [line 174] (covered 10)
+  ~ Casos de limite, entradas negativas e caminhos alternativos paridade de 1: par=false, ímpar=true [line 174] (covered 10)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos isPrimo(-3) = false [line 181] (killed 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos isPrimo(0) = false [line 181] (covered 6)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos isPrimo(1) = false [line 181] (killed 1)
+  ~ Casos de limite, entradas negativas e caminhos alternativos isPrimo(2) = true [line 181] (covered 9)
+  ~ Casos de limite, entradas negativas e caminhos alternativos isPrimo(4) = false [line 181] (covered 14)
+  ~ Casos de limite, entradas negativas e caminhos alternativos isPrimo(11) = true [line 181] (covered 15)
+  ~ Casos de limite, entradas negativas e caminhos alternativos fibonacci(0) = 0 [line 187] (covered 5)
+  ~ Casos de limite, entradas negativas e caminhos alternativos fibonacci(1) = 1 [line 187] (covered 5)
+  ~ Casos de limite, entradas negativas e caminhos alternativos fibonacci(2) = 1 [line 187] (covered 8)
+  ~ Casos de limite, entradas negativas e caminhos alternativos fibonacci(3) = 2 [line 187] (covered 8)
+  ~ Casos de limite, entradas negativas e caminhos alternativos clamp(0, 0, 10) = 0 [line 191] (covered 9)
+  ~ Casos de limite, entradas negativas e caminhos alternativos clamp(10, 0, 10) = 10 [line 191] (covered 9)
+  ~ Casos de limite, entradas negativas e caminhos alternativos clamp(-5, -3, -1) = -3 [line 191] (covered 5)
+  ~ Casos de limite, entradas negativas e caminhos alternativos clamp(2, -3, -1) = -1 [line 191] (covered 9)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos clamp preserva o sinal do zero quando o valor já está no intervalo [line 197] (killed 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos converte -40 °C para -40 °F [line 203] (covered 8)
+  ~ Casos de limite, entradas negativas e caminhos alternativos converte 37 °C para 98.6 °F [line 203] (covered 8)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos inverso rejeita zero com a mensagem esperada [line 208] (killed 2)
+  ~ Casos de limite, entradas negativas e caminhos alternativos inverso de número negativo [line 212] (covered 5)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos mediana de [3,1,2] é 2 [line 223] (killed 3)
+  ~ Casos de limite, entradas negativas e caminhos alternativos mediana de [10,2,1] é 2 [line 223] (covered 13)
+  ✓ Casos de limite, entradas negativas e caminhos alternativos mediana de [4,1,3,2] é 2.5 [line 223] (killed 6)
+  ~ Casos de limite, entradas negativas e caminhos alternativos mediana de [9,1] é 5 [line 223] (covered 17)
+  ~ Casos de limite, entradas negativas e caminhos alternativos mediana de [-1,-5,-3] é -3 [line 223] (covered 13)
+  ~ Casos de limite, entradas negativas e caminhos alternativos mediana de [7] é 7 [line 223] (covered 12)
+  ~ Casos de limite, entradas negativas e caminhos alternativos mediana não altera o array recebido [line 227] (covered 17)
+
+[Survived] ConditionalExpression
+src/operacoes.js:19:7
+-     if (n === 0 || n === 1) return 1;
+
++     if (false) return 1;
+
+Tests ran:
+    Suíte de testes para 50 operações aritméticas 8. deve calcular o fatorial de um número maior que 1
+    Casos de limite, entradas negativas e caminhos alternativos fatorial(0) = 1
+    Casos de limite, entradas negativas e caminhos alternativos fatorial(1) = 1
+  and 2 more tests!
+
+
+[Survived] LogicalOperator
+src/operacoes.js:19:7
+-     if (n === 0 || n === 1) return 1;
+
++     if (n === 0 && n === 1) return 1;
+
+Tests ran:
+    Suíte de testes para 50 operações aritméticas 8. deve calcular o fatorial de um número maior que 1
+    Casos de limite, entradas negativas e caminhos alternativos fatorial(0) = 1
+    Casos de limite, entradas negativas e caminhos alternativos fatorial(1) = 1
+  and 2 more tests!
+
+
+[Survived] ConditionalExpression
+src/operacoes.js:19:7
+-     if (n === 0 || n === 1) return 1;
+
++     if (false || n === 1) return 1;
+
+Tests ran:
+    Suíte de testes para 50 operações aritméticas 8. deve calcular o fatorial de um número maior que 1
+    Casos de limite, entradas negativas e caminhos alternativos fatorial(0) = 1
+    Casos de limite, entradas negativas e caminhos alternativos fatorial(1) = 1
+  and 2 more tests!
+
+
+[Survived] ConditionalExpression
+src/operacoes.js:19:18
+-     if (n === 0 || n === 1) return 1;
+
++     if (n === 0 || false) return 1;
+
+Tests ran:
+    Suíte de testes para 50 operações aritméticas 8. deve calcular o fatorial de um número maior que 1
+    Casos de limite, entradas negativas e caminhos alternativos fatorial(1) = 1
+    Casos de limite, entradas negativas e caminhos alternativos fatorial(2) = 2
+  and 1 more test!
+
+
+[Survived] ConditionalExpression
+src/operacoes.js:84:7
+-     if (numeros.length === 0) return 1;
+
++     if (false) return 1;
+
+Tests ran:
+    Suíte de testes para 50 operações aritméticas 35. deve calcular o produto de um array
+    Casos de limite, entradas negativas e caminhos alternativos produto vazio
+    Casos de limite, entradas negativas e caminhos alternativos produto com único elemento
+  and 2 more tests!
+
+
+Ran 3.75 tests per mutant on average.
+--------------|------------------|----------|-----------|------------|----------|----------|
+              | % Mutation score |          |           |            |          |          |
+File          |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+--------------|--------|---------|----------|-----------|------------|----------|----------|
+All files     |  97.65 |   97.65 |      202 |         6 |          5 |        0 |        0 |
+ operacoes.js |  97.65 |   97.65 |      202 |         6 |          5 |        0 |        0 |
+--------------|--------|---------|----------|-----------|------------|----------|----------|
+[32m19:10:13 (21340) INFO JsonReporter[39m Your report can be found at: file:///C:/Users/vgppl/Documents/Codex/2026-10-12/o/outputs/operacoes-mutante/reports/mutation/mutation.json
+[32m19:10:13 (21340) INFO HtmlReporter[39m Your report can be found at: file:///C:/Users/vgppl/Documents/Codex/2026-10-12/o/outputs/operacoes-mutante/reports/mutation/mutation.html
+[32m19:10:13 (21340) INFO MutationTestExecutor[39m Done in 16 seconds.

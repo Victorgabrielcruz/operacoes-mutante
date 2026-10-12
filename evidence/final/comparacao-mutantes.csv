@@ -1,0 +1,214 @@
+﻿id,linha,tipo,substituicao,status_inicial,status_final
+1,4,ArithmeticOperator,a - b,Killed,Killed
+2,5,BlockStatement,{},Killed,Killed
+0,4,BlockStatement,{},Killed,Killed
+3,5,ArithmeticOperator,a + b,Killed,Killed
+4,6,BlockStatement,{},Killed,Killed
+5,6,ArithmeticOperator,a / b,Killed,Killed
+6,7,BlockStatement,{},Killed,Killed
+7,8,ConditionalExpression,true,Killed,Killed
+8,8,ConditionalExpression,false,Killed,Killed
+9,8,EqualityOperator,b !== 0,Killed,Killed
+12,9,ArithmeticOperator,a * b,Killed,Killed
+11,8,StringLiteral,"""""",Survived,Killed
+13,11,BlockStatement,{},Killed,Killed
+14,12,BlockStatement,{},Killed,Killed
+16,13,ConditionalExpression,false,Survived,Killed
+15,13,ConditionalExpression,true,Killed,Killed
+17,13,EqualityOperator,n <= 0,Survived,Killed
+18,13,EqualityOperator,n >= 0,Killed,Killed
+20,13,StringLiteral,"""""",NoCoverage,Killed
+21,16,BlockStatement,{},Killed,Killed
+22,16,ArithmeticOperator,dividendo * divisor,Killed,Killed
+23,17,BlockStatement,{},Killed,Killed
+25,18,ConditionalExpression,false,Survived,Killed
+24,18,ConditionalExpression,true,Killed,Killed
+26,18,EqualityOperator,n <= 0,Survived,Killed
+27,18,EqualityOperator,n >= 0,Killed,Killed
+29,18,StringLiteral,"""""",NoCoverage,Killed
+30,19,ConditionalExpression,true,Killed,Killed
+31,19,ConditionalExpression,false,Survived,Survived
+32,19,LogicalOperator,n === 0 && n === 1,Survived,Survived
+33,19,ConditionalExpression,false,Survived,Survived
+34,19,EqualityOperator,n !== 0,Killed,Killed
+35,19,ConditionalExpression,false,Survived,Survived
+36,19,EqualityOperator,n !== 1,Killed,Killed
+37,21,ConditionalExpression,false,Killed,Killed
+38,21,EqualityOperator,i < n,Killed,Killed
+39,21,EqualityOperator,i > n,Killed,Killed
+40,21,UpdateOperator,i--,Timeout,Timeout
+41,21,BlockStatement,{},Killed,Killed
+42,21,AssignmentOperator,resultado /= i,Killed,Killed
+43,24,BlockStatement,{},Killed,Killed
+44,25,ConditionalExpression,true,Killed,Killed
+45,25,ConditionalExpression,false,Survived,Killed
+46,25,EqualityOperator,numeros.length !== 0,Killed,Killed
+47,26,ArithmeticOperator,somaArray(numeros) * numeros.length,Killed,Killed
+48,28,BlockStatement,{},Killed,Killed
+49,29,ArrowFunction,() => undefined,Killed,Killed
+50,29,ArithmeticOperator,acc - val,Killed,Killed
+51,33,BlockStatement,{},Killed,Killed
+52,34,ConditionalExpression,true,Killed,Killed
+53,34,ConditionalExpression,false,Survived,Killed
+54,34,EqualityOperator,numeros.length !== 0,Killed,Killed
+56,34,StringLiteral,"""""",NoCoverage,Killed
+57,35,MethodExpression,Math.min(...numeros),Killed,Killed
+58,37,BlockStatement,{},Killed,Killed
+59,38,ConditionalExpression,true,Killed,Killed
+60,38,ConditionalExpression,false,Survived,Killed
+61,38,EqualityOperator,numeros.length !== 0,Killed,Killed
+63,38,StringLiteral,"""""",NoCoverage,Killed
+64,39,MethodExpression,Math.max(...numeros),Killed,Killed
+65,41,BlockStatement,{},Killed,Killed
+66,42,BlockStatement,{},Killed,Killed
+67,43,BlockStatement,{},Killed,Killed
+68,43,ConditionalExpression,true,Survived,Killed
+69,43,ConditionalExpression,false,Killed,Killed
+70,43,EqualityOperator,n % 2 !== 0,Killed,Killed
+71,43,ArithmeticOperator,n * 2,Killed,Killed
+72,44,BlockStatement,{},Killed,Killed
+73,44,ConditionalExpression,true,Survived,Killed
+74,44,ConditionalExpression,false,Killed,Killed
+75,44,EqualityOperator,n % 2 === 0,Killed,Killed
+76,44,ArithmeticOperator,n * 2,Survived,Killed
+77,45,BlockStatement,{},Killed,Killed
+78,45,ArithmeticOperator,valor * percentual * 100,Killed,Killed
+79,45,ArithmeticOperator,valor / percentual,Killed,Killed
+80,46,BlockStatement,{},Killed,Killed
+82,46,ArithmeticOperator,1 - percentual / 100,Killed,Killed
+81,46,ArithmeticOperator,valor / (1 + percentual / 100),Killed,Killed
+84,47,BlockStatement,{},Killed,Killed
+83,46,ArithmeticOperator,percentual * 100,Killed,Killed
+85,47,ArithmeticOperator,valor / (1 - percentual / 100),Killed,Killed
+86,47,ArithmeticOperator,1 + percentual / 100,Killed,Killed
+87,47,ArithmeticOperator,percentual * 100,Killed,Killed
+88,48,BlockStatement,{},Killed,Killed
+89,48,UnaryOperator,+n,Killed,Killed
+90,51,BlockStatement,{},Killed,Killed
+91,52,BlockStatement,{},Killed,Killed
+92,53,BlockStatement,{},Killed,Killed
+93,54,BlockStatement,{},Killed,Killed
+94,55,BlockStatement,{},Killed,Killed
+96,57,BlockStatement,{},Killed,Killed
+95,56,BlockStatement,{},Killed,Killed
+97,58,BlockStatement,{},Killed,Killed
+98,59,ArithmeticOperator,"Math.pow(catetoA, 2) - Math.pow(catetoB, 2)",Killed,Killed
+100,61,ArithmeticOperator,graus / (Math.PI / 180),Killed,Killed
+99,61,BlockStatement,{},Killed,Killed
+101,61,ArithmeticOperator,Math.PI * 180,Killed,Killed
+102,62,BlockStatement,{},Killed,Killed
+104,62,ArithmeticOperator,180 * Math.PI,Killed,Killed
+103,62,ArithmeticOperator,radianos / (180 / Math.PI),Killed,Killed
+105,65,BlockStatement,{},Killed,Killed
+106,66,ConditionalExpression,false,Killed,Killed
+107,66,BlockStatement,{},Timeout,Timeout
+108,66,ArrayDeclaration,[],Killed,Killed
+110,69,BlockStatement,{},Killed,Killed
+109,66,ArithmeticOperator,a * b,Timeout,Timeout
+112,70,ArithmeticOperator,a / b,Killed,Killed
+111,70,ArithmeticOperator,"a * b * mdc(a, b)",Killed,Killed
+114,73,ConditionalExpression,true,Killed,Killed
+113,72,BlockStatement,{},Killed,Killed
+115,73,ConditionalExpression,false,Survived,Killed
+116,73,EqualityOperator,n < 1,Survived,Killed
+118,73,BooleanLiteral,true,NoCoverage,Killed
+117,73,EqualityOperator,n > 1,Killed,Killed
+119,74,ConditionalExpression,false,Survived,Killed
+120,74,EqualityOperator,i <= n,Killed,Killed
+121,74,EqualityOperator,i >= n,Survived,Killed
+122,74,UpdateOperator,i--,Killed,Killed
+123,74,BlockStatement,{},Survived,Killed
+124,75,ConditionalExpression,true,Killed,Killed
+125,75,ConditionalExpression,false,Survived,Killed
+126,75,EqualityOperator,n % i !== 0,Killed,Killed
+127,75,ArithmeticOperator,n * i,Survived,Killed
+128,75,BooleanLiteral,true,NoCoverage,Killed
+129,77,BooleanLiteral,false,Killed,Killed
+130,79,BlockStatement,{},Killed,Killed
+131,80,ConditionalExpression,true,Killed,Killed
+132,80,ConditionalExpression,false,Killed,Timeout
+133,80,EqualityOperator,n < 1,Killed,Killed
+134,80,EqualityOperator,n > 1,Killed,Killed
+135,81,ArithmeticOperator,fibonacci(n - 1) - fibonacci(n - 2),Killed,Killed
+136,81,ArithmeticOperator,n + 1,Killed,Timeout
+137,81,ArithmeticOperator,n + 2,Killed,Timeout
+138,83,BlockStatement,{},Killed,Killed
+139,84,ConditionalExpression,true,Killed,Killed
+140,84,ConditionalExpression,false,Survived,Survived
+141,84,EqualityOperator,numeros.length !== 0,Killed,Killed
+142,85,ArrowFunction,() => undefined,Killed,Killed
+143,85,ArithmeticOperator,acc / val,Killed,Killed
+144,87,BlockStatement,{},Killed,Killed
+145,88,ConditionalExpression,true,Killed,Killed
+146,88,ConditionalExpression,false,Survived,Killed
+147,88,EqualityOperator,valor <= min,Survived,Killed
+148,88,EqualityOperator,valor >= min,Killed,Killed
+149,89,ConditionalExpression,true,Killed,Killed
+150,89,ConditionalExpression,false,Survived,Killed
+151,89,EqualityOperator,valor >= max,Survived,Killed
+152,89,EqualityOperator,valor <= max,Killed,Killed
+153,92,BlockStatement,{},Killed,Killed
+154,92,ConditionalExpression,true,Survived,Killed
+155,92,ConditionalExpression,false,Killed,Killed
+156,92,EqualityOperator,dividendo % divisor !== 0,Killed,Killed
+157,92,ArithmeticOperator,dividendo * divisor,Killed,Killed
+158,93,BlockStatement,{},Killed,Killed
+159,93,ArithmeticOperator,celsius * 9 / 5 - 32,Killed,Killed
+160,93,ArithmeticOperator,celsius * 9 * 5,Survived,Killed
+161,93,ArithmeticOperator,celsius / 9,Survived,Killed
+162,94,BlockStatement,{},Killed,Killed
+163,94,ArithmeticOperator,(fahrenheit - 32) * 5 * 9,Survived,Killed
+164,94,ArithmeticOperator,(fahrenheit - 32) / 5,Survived,Killed
+165,94,ArithmeticOperator,fahrenheit + 32,Killed,Killed
+166,95,BlockStatement,{},Killed,Killed
+167,96,ConditionalExpression,true,Killed,Killed
+168,96,ConditionalExpression,false,Survived,Killed
+169,96,EqualityOperator,n !== 0,Killed,Killed
+171,96,StringLiteral,"""""",NoCoverage,Killed
+172,97,ArithmeticOperator,1 * n,Killed,Killed
+173,101,BlockStatement,{},Killed,Killed
+174,101,ArithmeticOperator,"Math.PI / Math.pow(raio, 2)",Killed,Killed
+175,102,BlockStatement,{},Killed,Killed
+176,102,ArithmeticOperator,base / altura,Killed,Killed
+177,103,BlockStatement,{},Killed,Killed
+178,103,ArithmeticOperator,2 / (base + altura),Killed,Killed
+179,103,ArithmeticOperator,base - altura,Killed,Killed
+180,104,BlockStatement,{},Killed,Killed
+181,104,ConditionalExpression,true,Survived,Killed
+182,104,ConditionalExpression,false,Killed,Killed
+183,104,EqualityOperator,a >= b,Survived,Killed
+184,104,EqualityOperator,a <= b,Killed,Killed
+185,105,BlockStatement,{},Killed,Killed
+186,105,ConditionalExpression,true,Survived,Killed
+187,105,ConditionalExpression,false,Killed,Killed
+188,105,EqualityOperator,a <= b,Survived,Killed
+189,105,EqualityOperator,a >= b,Killed,Killed
+190,106,BlockStatement,{},Killed,Killed
+191,106,ConditionalExpression,true,Survived,Killed
+192,106,ConditionalExpression,false,Killed,Killed
+193,106,EqualityOperator,a !== b,Killed,Killed
+194,107,BlockStatement,{},Killed,Killed
+195,108,ConditionalExpression,true,Killed,Killed
+196,108,ConditionalExpression,false,Survived,Killed
+197,108,EqualityOperator,numeros.length !== 0,Killed,Killed
+199,108,StringLiteral,"""""",NoCoverage,Killed
+200,109,MethodExpression,[...numeros],Survived,Killed
+201,109,ArrayDeclaration,[],Killed,Killed
+202,109,ArrowFunction,() => undefined,Survived,Killed
+203,109,ArithmeticOperator,a + b,Survived,Killed
+204,110,ArithmeticOperator,sorted.length * 2,Killed,Killed
+205,111,ConditionalExpression,true,Killed,Killed
+206,111,ConditionalExpression,false,Survived,Killed
+207,111,EqualityOperator,sorted.length % 2 !== 0,Killed,Killed
+208,111,ArithmeticOperator,sorted.length * 2,Survived,Killed
+209,111,BlockStatement,{},NoCoverage,Killed
+210,112,ArithmeticOperator,(sorted[mid - 1] + sorted[mid]) * 2,NoCoverage,Killed
+211,112,ArithmeticOperator,sorted[mid - 1] - sorted[mid],NoCoverage,Killed
+212,112,ArithmeticOperator,mid + 1,NoCoverage,Killed
+213,116,BlockStatement,{},Killed,Killed
+214,116,ArithmeticOperator,n / 2,Killed,Killed
+215,117,BlockStatement,{},Killed,Killed
+216,117,ArithmeticOperator,n / 3,Killed,Killed
+217,118,BlockStatement,{},Killed,Killed
+218,118,ArithmeticOperator,n * 2,Killed,Killed
+219,122,ObjectLiteral,{},Killed,Killed

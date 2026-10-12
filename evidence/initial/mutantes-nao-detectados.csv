@@ -1,0 +1,57 @@
+﻿id,arquivo,linha,coluna,tipo,status,substituicao
+20,src/operacoes.js,13,30,StringLiteral,NoCoverage,""""""
+29,src/operacoes.js,18,30,StringLiteral,NoCoverage,""""""
+56,src/operacoes.js,34,45,StringLiteral,NoCoverage,""""""
+63,src/operacoes.js,38,45,StringLiteral,NoCoverage,""""""
+118,src/operacoes.js,73,22,BooleanLiteral,NoCoverage,true
+128,src/operacoes.js,75,29,BooleanLiteral,NoCoverage,true
+171,src/operacoes.js,96,32,StringLiteral,NoCoverage,""""""
+199,src/operacoes.js,108,45,StringLiteral,NoCoverage,""""""
+209,src/operacoes.js,111,32,BlockStatement,NoCoverage,{}
+210,src/operacoes.js,112,12,ArithmeticOperator,NoCoverage,(sorted[mid - 1] + sorted[mid]) * 2
+211,src/operacoes.js,112,13,ArithmeticOperator,NoCoverage,sorted[mid - 1] - sorted[mid]
+212,src/operacoes.js,112,20,ArithmeticOperator,NoCoverage,mid + 1
+11,src/operacoes.js,8,32,StringLiteral,Survived,""""""
+16,src/operacoes.js,13,7,ConditionalExpression,Survived,false
+17,src/operacoes.js,13,7,EqualityOperator,Survived,n <= 0
+25,src/operacoes.js,18,7,ConditionalExpression,Survived,false
+26,src/operacoes.js,18,7,EqualityOperator,Survived,n <= 0
+31,src/operacoes.js,19,7,ConditionalExpression,Survived,false
+32,src/operacoes.js,19,7,LogicalOperator,Survived,n === 0 && n === 1
+33,src/operacoes.js,19,7,ConditionalExpression,Survived,false
+35,src/operacoes.js,19,18,ConditionalExpression,Survived,false
+45,src/operacoes.js,25,7,ConditionalExpression,Survived,false
+53,src/operacoes.js,34,7,ConditionalExpression,Survived,false
+60,src/operacoes.js,38,7,ConditionalExpression,Survived,false
+68,src/operacoes.js,43,28,ConditionalExpression,Survived,true
+73,src/operacoes.js,44,30,ConditionalExpression,Survived,true
+76,src/operacoes.js,44,30,ArithmeticOperator,Survived,n * 2
+115,src/operacoes.js,73,7,ConditionalExpression,Survived,false
+116,src/operacoes.js,73,7,EqualityOperator,Survived,n < 1
+119,src/operacoes.js,74,19,ConditionalExpression,Survived,false
+121,src/operacoes.js,74,19,EqualityOperator,Survived,i >= n
+123,src/operacoes.js,74,31,BlockStatement,Survived,{}
+125,src/operacoes.js,75,9,ConditionalExpression,Survived,false
+127,src/operacoes.js,75,9,ArithmeticOperator,Survived,n * i
+140,src/operacoes.js,84,7,ConditionalExpression,Survived,false
+146,src/operacoes.js,88,7,ConditionalExpression,Survived,false
+147,src/operacoes.js,88,7,EqualityOperator,Survived,valor <= min
+150,src/operacoes.js,89,7,ConditionalExpression,Survived,false
+151,src/operacoes.js,89,7,EqualityOperator,Survived,valor >= max
+154,src/operacoes.js,92,51,ConditionalExpression,Survived,true
+160,src/operacoes.js,93,51,ArithmeticOperator,Survived,celsius * 9 * 5
+161,src/operacoes.js,93,51,ArithmeticOperator,Survived,celsius / 9
+163,src/operacoes.js,94,53,ArithmeticOperator,Survived,(fahrenheit - 32) * 5 * 9
+164,src/operacoes.js,94,53,ArithmeticOperator,Survived,(fahrenheit - 32) / 5
+168,src/operacoes.js,96,7,ConditionalExpression,Survived,false
+181,src/operacoes.js,104,36,ConditionalExpression,Survived,true
+183,src/operacoes.js,104,36,EqualityOperator,Survived,a >= b
+186,src/operacoes.js,105,36,ConditionalExpression,Survived,true
+188,src/operacoes.js,105,36,EqualityOperator,Survived,a <= b
+191,src/operacoes.js,106,33,ConditionalExpression,Survived,true
+196,src/operacoes.js,108,7,ConditionalExpression,Survived,false
+200,src/operacoes.js,109,18,MethodExpression,Survived,[...numeros]
+202,src/operacoes.js,109,36,ArrowFunction,Survived,() => undefined
+203,src/operacoes.js,109,46,ArithmeticOperator,Survived,a + b
+206,src/operacoes.js,111,7,ConditionalExpression,Survived,false
+208,src/operacoes.js,111,7,ArithmeticOperator,Survived,sorted.length * 2
