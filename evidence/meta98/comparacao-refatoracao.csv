@@ -1,0 +1,214 @@
+﻿arquivo,linha,coluna,tipo,substituicao,id_antes,status_antes,id_depois,status_depois
+src/operacoes.js,4,30,ArithmeticOperator,a - b,1,Killed,1,Killed
+src/operacoes.js,5,26,BlockStatement,{},2,Killed,2,Killed
+src/operacoes.js,4,21,BlockStatement,{},0,Killed,0,Killed
+src/operacoes.js,5,35,ArithmeticOperator,a + b,3,Killed,3,Killed
+src/operacoes.js,6,30,BlockStatement,{},4,Killed,4,Killed
+src/operacoes.js,6,39,ArithmeticOperator,a / b,5,Killed,5,Killed
+src/operacoes.js,7,24,BlockStatement,{},6,Killed,6,Killed
+src/operacoes.js,8,7,ConditionalExpression,true,7,Killed,7,Killed
+src/operacoes.js,8,7,ConditionalExpression,false,8,Killed,8,Killed
+src/operacoes.js,8,7,EqualityOperator,b !== 0,9,Killed,9,Killed
+src/operacoes.js,9,10,ArithmeticOperator,a * b,12,Killed,12,Killed
+src/operacoes.js,8,32,StringLiteral,"""""",11,Killed,11,Killed
+src/operacoes.js,11,35,BlockStatement,{},13,Killed,13,Killed
+src/operacoes.js,12,26,BlockStatement,{},14,Killed,14,Killed
+src/operacoes.js,13,7,ConditionalExpression,false,16,Killed,16,Killed
+src/operacoes.js,13,7,ConditionalExpression,true,15,Killed,15,Killed
+src/operacoes.js,13,7,EqualityOperator,n <= 0,17,Killed,17,Killed
+src/operacoes.js,13,7,EqualityOperator,n >= 0,18,Killed,18,Killed
+src/operacoes.js,13,30,StringLiteral,"""""",20,Killed,20,Killed
+src/operacoes.js,16,43,BlockStatement,{},21,Killed,21,Killed
+src/operacoes.js,16,52,ArithmeticOperator,dividendo * divisor,22,Killed,22,Killed
+src/operacoes.js,17,22,BlockStatement,{},23,Killed,23,Killed
+src/operacoes.js,18,7,ConditionalExpression,false,25,Killed,25,Killed
+src/operacoes.js,18,7,ConditionalExpression,true,24,Killed,24,Killed
+src/operacoes.js,18,7,EqualityOperator,n <= 0,26,Killed,26,Killed
+src/operacoes.js,18,7,EqualityOperator,n >= 0,27,Killed,27,Killed
+src/operacoes.js,18,30,StringLiteral,"""""",29,Killed,29,Killed
+src/operacoes.js,19,7,ConditionalExpression,true,30,Killed,,Trecho redundante removido
+src/operacoes.js,19,7,ConditionalExpression,false,31,Survived,,Trecho redundante removido
+src/operacoes.js,19,7,LogicalOperator,n === 0 && n === 1,32,Survived,,Trecho redundante removido
+src/operacoes.js,19,7,ConditionalExpression,false,33,Survived,,Trecho redundante removido
+src/operacoes.js,19,7,EqualityOperator,n !== 0,34,Killed,,Trecho redundante removido
+src/operacoes.js,19,18,ConditionalExpression,false,35,Survived,,Trecho redundante removido
+src/operacoes.js,19,18,EqualityOperator,n !== 1,36,Killed,,Trecho redundante removido
+src/operacoes.js,21,19,ConditionalExpression,false,37,Killed,30,Killed
+src/operacoes.js,21,19,EqualityOperator,i < n,38,Killed,31,Killed
+src/operacoes.js,21,19,EqualityOperator,i > n,39,Killed,32,Timeout
+src/operacoes.js,21,27,UpdateOperator,i--,40,Timeout,33,Timeout
+src/operacoes.js,21,32,BlockStatement,{},41,Killed,34,Killed
+src/operacoes.js,21,34,AssignmentOperator,resultado /= i,42,Killed,35,Killed
+src/operacoes.js,24,30,BlockStatement,{},43,Killed,36,Killed
+src/operacoes.js,25,7,ConditionalExpression,true,44,Killed,37,Killed
+src/operacoes.js,25,7,ConditionalExpression,false,45,Killed,38,Killed
+src/operacoes.js,25,7,EqualityOperator,numeros.length !== 0,46,Killed,39,Killed
+src/operacoes.js,26,10,ArithmeticOperator,somaArray(numeros) * numeros.length,47,Killed,40,Killed
+src/operacoes.js,28,29,BlockStatement,{},48,Killed,41,Killed
+src/operacoes.js,29,25,ArrowFunction,() => undefined,49,Killed,42,Killed
+src/operacoes.js,29,39,ArithmeticOperator,acc - val,50,Killed,43,Killed
+src/operacoes.js,33,31,BlockStatement,{},51,Killed,44,Killed
+src/operacoes.js,34,7,ConditionalExpression,true,52,Killed,45,Killed
+src/operacoes.js,34,7,ConditionalExpression,false,53,Killed,46,Killed
+src/operacoes.js,34,7,EqualityOperator,numeros.length !== 0,54,Killed,47,Killed
+src/operacoes.js,34,45,StringLiteral,"""""",56,Killed,49,Killed
+src/operacoes.js,35,10,MethodExpression,Math.min(...numeros),57,Killed,50,Killed
+src/operacoes.js,37,31,BlockStatement,{},58,Killed,51,Killed
+src/operacoes.js,38,7,ConditionalExpression,true,59,Killed,52,Killed
+src/operacoes.js,38,7,ConditionalExpression,false,60,Killed,53,Killed
+src/operacoes.js,38,7,EqualityOperator,numeros.length !== 0,61,Killed,54,Killed
+src/operacoes.js,38,45,StringLiteral,"""""",63,Killed,56,Killed
+src/operacoes.js,39,10,MethodExpression,Math.max(...numeros),64,Killed,57,Killed
+src/operacoes.js,41,27,BlockStatement,{},65,Killed,58,Killed
+src/operacoes.js,42,24,BlockStatement,{},66,Killed,59,Killed
+src/operacoes.js,43,19,BlockStatement,{},67,Killed,60,Killed
+src/operacoes.js,43,28,ConditionalExpression,true,68,Killed,61,Killed
+src/operacoes.js,43,28,ConditionalExpression,false,69,Killed,62,Killed
+src/operacoes.js,43,28,EqualityOperator,n % 2 !== 0,70,Killed,63,Killed
+src/operacoes.js,43,28,ArithmeticOperator,n * 2,71,Killed,64,Killed
+src/operacoes.js,44,21,BlockStatement,{},72,Killed,65,Killed
+src/operacoes.js,44,30,ConditionalExpression,true,73,Killed,66,Killed
+src/operacoes.js,44,30,ConditionalExpression,false,74,Killed,67,Killed
+src/operacoes.js,44,30,EqualityOperator,n % 2 === 0,75,Killed,68,Killed
+src/operacoes.js,44,30,ArithmeticOperator,n * 2,76,Killed,69,Killed
+src/operacoes.js,45,49,BlockStatement,{},77,Killed,70,Killed
+src/operacoes.js,45,58,ArithmeticOperator,valor * percentual * 100,78,Killed,71,Killed
+src/operacoes.js,45,59,ArithmeticOperator,valor / percentual,79,Killed,72,Killed
+src/operacoes.js,46,49,BlockStatement,{},80,Killed,73,Killed
+src/operacoes.js,46,67,ArithmeticOperator,1 - percentual / 100,82,Killed,75,Killed
+src/operacoes.js,46,58,ArithmeticOperator,valor / (1 + percentual / 100),81,Killed,74,Killed
+src/operacoes.js,47,49,BlockStatement,{},84,Killed,77,Killed
+src/operacoes.js,46,71,ArithmeticOperator,percentual * 100,83,Killed,76,Killed
+src/operacoes.js,47,58,ArithmeticOperator,valor / (1 - percentual / 100),85,Killed,78,Killed
+src/operacoes.js,47,67,ArithmeticOperator,1 + percentual / 100,86,Killed,79,Killed
+src/operacoes.js,47,71,ArithmeticOperator,percentual * 100,87,Killed,80,Killed
+src/operacoes.js,48,27,BlockStatement,{},88,Killed,81,Killed
+src/operacoes.js,48,36,UnaryOperator,+n,89,Killed,82,Killed
+src/operacoes.js,51,26,BlockStatement,{},90,Killed,83,Killed
+src/operacoes.js,52,29,BlockStatement,{},91,Killed,84,Killed
+src/operacoes.js,53,30,BlockStatement,{},92,Killed,85,Killed
+src/operacoes.js,54,30,BlockStatement,{},93,Killed,86,Killed
+src/operacoes.js,55,29,BlockStatement,{},94,Killed,87,Killed
+src/operacoes.js,57,32,BlockStatement,{},96,Killed,89,Killed
+src/operacoes.js,56,33,BlockStatement,{},95,Killed,88,Killed
+src/operacoes.js,58,39,BlockStatement,{},97,Killed,90,Killed
+src/operacoes.js,59,20,ArithmeticOperator,"Math.pow(catetoA, 2) - Math.pow(catetoB, 2)",98,Killed,91,Killed
+src/operacoes.js,61,44,ArithmeticOperator,graus / (Math.PI / 180),100,Killed,93,Killed
+src/operacoes.js,61,35,BlockStatement,{},99,Killed,92,Killed
+src/operacoes.js,61,53,ArithmeticOperator,Math.PI * 180,101,Killed,94,Killed
+src/operacoes.js,62,38,BlockStatement,{},102,Killed,95,Killed
+src/operacoes.js,62,59,ArithmeticOperator,180 * Math.PI,104,Killed,97,Killed
+src/operacoes.js,62,47,ArithmeticOperator,radianos / (180 / Math.PI),103,Killed,96,Killed
+src/operacoes.js,65,20,BlockStatement,{},105,Killed,98,Killed
+src/operacoes.js,66,9,ConditionalExpression,false,106,Killed,99,Killed
+src/operacoes.js,66,12,BlockStatement,{},107,Timeout,100,Timeout
+src/operacoes.js,66,23,ArrayDeclaration,[],108,Killed,101,Killed
+src/operacoes.js,69,20,BlockStatement,{},110,Killed,103,Killed
+src/operacoes.js,66,27,ArithmeticOperator,a * b,109,Timeout,102,Timeout
+src/operacoes.js,70,11,ArithmeticOperator,a / b,112,Killed,105,Killed
+src/operacoes.js,70,10,ArithmeticOperator,"a * b * mdc(a, b)",111,Killed,104,Killed
+src/operacoes.js,73,7,ConditionalExpression,true,114,Killed,107,Killed
+src/operacoes.js,72,21,BlockStatement,{},113,Killed,106,Killed
+src/operacoes.js,73,7,ConditionalExpression,false,115,Killed,108,Killed
+src/operacoes.js,73,7,EqualityOperator,n < 1,116,Killed,109,Killed
+src/operacoes.js,73,22,BooleanLiteral,true,118,Killed,111,Killed
+src/operacoes.js,73,7,EqualityOperator,n > 1,117,Killed,110,Killed
+src/operacoes.js,74,19,ConditionalExpression,false,119,Killed,112,Killed
+src/operacoes.js,74,19,EqualityOperator,i <= n,120,Killed,113,Killed
+src/operacoes.js,74,19,EqualityOperator,i >= n,121,Killed,114,Killed
+src/operacoes.js,74,26,UpdateOperator,i--,122,Killed,115,Killed
+src/operacoes.js,74,31,BlockStatement,{},123,Killed,116,Killed
+src/operacoes.js,75,9,ConditionalExpression,true,124,Killed,117,Killed
+src/operacoes.js,75,9,ConditionalExpression,false,125,Killed,118,Killed
+src/operacoes.js,75,9,EqualityOperator,n % i !== 0,126,Killed,119,Killed
+src/operacoes.js,75,9,ArithmeticOperator,n * i,127,Killed,120,Killed
+src/operacoes.js,75,29,BooleanLiteral,true,128,Killed,121,Killed
+src/operacoes.js,77,10,BooleanLiteral,false,129,Killed,122,Killed
+src/operacoes.js,79,23,BlockStatement,{},130,Killed,123,Killed
+src/operacoes.js,80,7,ConditionalExpression,true,131,Killed,124,Killed
+src/operacoes.js,80,7,ConditionalExpression,false,132,Timeout,125,Timeout
+src/operacoes.js,80,7,EqualityOperator,n < 1,133,Killed,126,Killed
+src/operacoes.js,80,7,EqualityOperator,n > 1,134,Killed,127,Killed
+src/operacoes.js,81,10,ArithmeticOperator,fibonacci(n - 1) - fibonacci(n - 2),135,Killed,128,Killed
+src/operacoes.js,81,20,ArithmeticOperator,n + 1,136,Timeout,129,Timeout
+src/operacoes.js,81,39,ArithmeticOperator,n + 2,137,Timeout,130,Timeout
+src/operacoes.js,83,32,BlockStatement,{},138,Killed,131,Killed
+src/operacoes.js,84,7,ConditionalExpression,true,139,Killed,132,Killed
+src/operacoes.js,84,7,ConditionalExpression,false,140,Survived,133,Survived
+src/operacoes.js,84,7,EqualityOperator,numeros.length !== 0,141,Killed,134,Killed
+src/operacoes.js,85,25,ArrowFunction,() => undefined,142,Killed,135,Killed
+src/operacoes.js,85,39,ArithmeticOperator,acc / val,143,Killed,136,Killed
+src/operacoes.js,87,33,BlockStatement,{},144,Killed,137,Killed
+src/operacoes.js,88,7,ConditionalExpression,true,145,Killed,138,Killed
+src/operacoes.js,88,7,ConditionalExpression,false,146,Killed,139,Killed
+src/operacoes.js,88,7,EqualityOperator,valor <= min,147,Killed,140,Killed
+src/operacoes.js,88,7,EqualityOperator,valor >= min,148,Killed,141,Killed
+src/operacoes.js,89,7,ConditionalExpression,true,149,Killed,142,Killed
+src/operacoes.js,89,7,ConditionalExpression,false,150,Killed,143,Killed
+src/operacoes.js,89,7,EqualityOperator,valor >= max,151,Killed,144,Killed
+src/operacoes.js,89,7,EqualityOperator,valor <= max,152,Killed,145,Killed
+src/operacoes.js,92,42,BlockStatement,{},153,Killed,146,Killed
+src/operacoes.js,92,51,ConditionalExpression,true,154,Killed,147,Killed
+src/operacoes.js,92,51,ConditionalExpression,false,155,Killed,148,Killed
+src/operacoes.js,92,51,EqualityOperator,dividendo % divisor !== 0,156,Killed,149,Killed
+src/operacoes.js,92,51,ArithmeticOperator,dividendo * divisor,157,Killed,150,Killed
+src/operacoes.js,93,41,BlockStatement,{},158,Killed,151,Killed
+src/operacoes.js,93,50,ArithmeticOperator,celsius * 9 / 5 - 32,159,Killed,152,Killed
+src/operacoes.js,93,51,ArithmeticOperator,celsius * 9 * 5,160,Killed,153,Killed
+src/operacoes.js,93,51,ArithmeticOperator,celsius / 9,161,Killed,154,Killed
+src/operacoes.js,94,44,BlockStatement,{},162,Killed,155,Killed
+src/operacoes.js,94,53,ArithmeticOperator,(fahrenheit - 32) * 5 * 9,163,Killed,156,Killed
+src/operacoes.js,94,53,ArithmeticOperator,(fahrenheit - 32) / 5,164,Killed,157,Killed
+src/operacoes.js,94,54,ArithmeticOperator,fahrenheit + 32,165,Killed,158,Killed
+src/operacoes.js,95,21,BlockStatement,{},166,Killed,159,Killed
+src/operacoes.js,96,7,ConditionalExpression,true,167,Killed,160,Killed
+src/operacoes.js,96,7,ConditionalExpression,false,168,Killed,161,Killed
+src/operacoes.js,96,7,EqualityOperator,n !== 0,169,Killed,162,Killed
+src/operacoes.js,96,32,StringLiteral,"""""",171,Killed,164,Killed
+src/operacoes.js,97,10,ArithmeticOperator,1 * n,172,Killed,165,Killed
+src/operacoes.js,101,28,BlockStatement,{},173,Killed,166,Killed
+src/operacoes.js,101,37,ArithmeticOperator,"Math.PI / Math.pow(raio, 2)",174,Killed,167,Killed
+src/operacoes.js,102,38,BlockStatement,{},175,Killed,168,Killed
+src/operacoes.js,102,47,ArithmeticOperator,base / altura,176,Killed,169,Killed
+src/operacoes.js,103,43,BlockStatement,{},177,Killed,170,Killed
+src/operacoes.js,103,52,ArithmeticOperator,2 / (base + altura),178,Killed,171,Killed
+src/operacoes.js,103,57,ArithmeticOperator,base - altura,179,Killed,172,Killed
+src/operacoes.js,104,27,BlockStatement,{},180,Killed,173,Killed
+src/operacoes.js,104,36,ConditionalExpression,true,181,Killed,174,Killed
+src/operacoes.js,104,36,ConditionalExpression,false,182,Killed,175,Killed
+src/operacoes.js,104,36,EqualityOperator,a >= b,183,Killed,176,Killed
+src/operacoes.js,104,36,EqualityOperator,a <= b,184,Killed,177,Killed
+src/operacoes.js,105,27,BlockStatement,{},185,Killed,178,Killed
+src/operacoes.js,105,36,ConditionalExpression,true,186,Killed,179,Killed
+src/operacoes.js,105,36,ConditionalExpression,false,187,Killed,180,Killed
+src/operacoes.js,105,36,EqualityOperator,a <= b,188,Killed,181,Killed
+src/operacoes.js,105,36,EqualityOperator,a >= b,189,Killed,182,Killed
+src/operacoes.js,106,24,BlockStatement,{},190,Killed,183,Killed
+src/operacoes.js,106,33,ConditionalExpression,true,191,Killed,184,Killed
+src/operacoes.js,106,33,ConditionalExpression,false,192,Killed,185,Killed
+src/operacoes.js,106,33,EqualityOperator,a !== b,193,Killed,186,Killed
+src/operacoes.js,107,32,BlockStatement,{},194,Killed,187,Killed
+src/operacoes.js,108,7,ConditionalExpression,true,195,Killed,188,Killed
+src/operacoes.js,108,7,ConditionalExpression,false,196,Killed,189,Killed
+src/operacoes.js,108,7,EqualityOperator,numeros.length !== 0,197,Killed,190,Killed
+src/operacoes.js,108,45,StringLiteral,"""""",199,Killed,192,Killed
+src/operacoes.js,109,18,MethodExpression,[...numeros],200,Killed,193,Killed
+src/operacoes.js,109,18,ArrayDeclaration,[],201,Killed,194,Killed
+src/operacoes.js,109,36,ArrowFunction,() => undefined,202,Killed,195,Killed
+src/operacoes.js,109,46,ArithmeticOperator,a + b,203,Killed,196,Killed
+src/operacoes.js,110,26,ArithmeticOperator,sorted.length * 2,204,Killed,197,Killed
+src/operacoes.js,111,7,ConditionalExpression,true,205,Killed,198,Killed
+src/operacoes.js,111,7,ConditionalExpression,false,206,Killed,199,Killed
+src/operacoes.js,111,7,EqualityOperator,sorted.length % 2 !== 0,207,Killed,200,Killed
+src/operacoes.js,111,7,ArithmeticOperator,sorted.length * 2,208,Killed,201,Killed
+src/operacoes.js,111,32,BlockStatement,{},209,Killed,202,Killed
+src/operacoes.js,112,12,ArithmeticOperator,(sorted[mid - 1] + sorted[mid]) * 2,210,Killed,203,Killed
+src/operacoes.js,112,13,ArithmeticOperator,sorted[mid - 1] - sorted[mid],211,Killed,204,Killed
+src/operacoes.js,112,20,ArithmeticOperator,mid + 1,212,Killed,205,Killed
+src/operacoes.js,116,19,BlockStatement,{},213,Killed,206,Killed
+src/operacoes.js,116,28,ArithmeticOperator,n / 2,214,Killed,207,Killed
+src/operacoes.js,117,20,BlockStatement,{},215,Killed,208,Killed
+src/operacoes.js,117,29,ArithmeticOperator,n / 3,216,Killed,209,Killed
+src/operacoes.js,118,20,BlockStatement,{},217,Killed,210,Killed
+src/operacoes.js,118,29,ArithmeticOperator,n * 2,218,Killed,211,Killed
+src/operacoes.js,122,18,ObjectLiteral,{},219,Killed,212,Killed

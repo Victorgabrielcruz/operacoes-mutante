@@ -13,5 +13,6 @@
   "coverageAnalysis": "perTest",
   "mutate": ["src/**/*.js"],
   "ignorePatterns": ["evidence/**", "coverage/**", "reports/**"],
-  "concurrency": 2
+  "concurrency": 2,
+  "thresholds": { "high": 98, "low": 80, "break": 98 }
 }

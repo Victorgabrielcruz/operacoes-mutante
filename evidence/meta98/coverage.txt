@@ -1,0 +1,136 @@
+
+> operacoes-mutante-lab@1.0.0 test
+> jest --coverage --coverageDirectory=evidence/meta98/coverage
+
+PASS test/operacoes.test.js
+  Suíte de testes para 50 operações aritméticas
+    √ 1. deve somar dois números positivos (2 ms)
+    √ 2. deve subtrair dois números positivos
+    √ 3. deve multiplicar dois números positivos (1 ms)
+    √ 4. deve dividir e lançar erro para divisão por zero (13 ms)
+    √ 5. deve calcular a potência com expoente positivo
+    √ 6. deve calcular a raiz quadrada de um quadrado perfeito
+    √ 7. deve retornar o resto da divisão
+    √ 8. deve calcular o fatorial de um número maior que 1
+    √ 9. deve calcular a média de um array com múltiplos elementos
+    √ 10. deve somar um array com múltiplos elementos
+    √ 11. deve encontrar o valor máximo em um array (1 ms)
+    √ 12. deve encontrar o valor mínimo em um array
+    √ 13. deve retornar o valor absoluto de um número negativo
+    √ 14. deve arredondar um número para cima
+    √ 15. deve distinguir números pares e ímpares
+    √ 16. deve distinguir números ímpares e pares
+    √ 17. deve calcular uma porcentagem simples (1 ms)
+    √ 18. deve aumentar um valor em uma porcentagem
+    √ 19. deve diminuir um valor em uma porcentagem
+    √ 20. deve inverter o sinal de um número positivo
+    √ 21. deve calcular o seno de 0
+    √ 22. deve calcular o cosseno de 0
+    √ 23. deve calcular a tangente de 0 (1 ms)
+    √ 24. deve calcular o logaritmo natural de Euler
+    √ 25. deve calcular o logaritmo na base 10
+    √ 26. deve arredondar para baixo
+    √ 27. deve arredondar para cima
+    √ 28. deve calcular a hipotenusa de um triângulo retângulo
+    √ 29. deve converter graus para radianos
+    √ 30. deve converter radianos para graus
+    √ 31. deve calcular o MDC de dois números
+    √ 32. deve calcular o MMC de dois números
+    √ 33. deve distinguir números primos e compostos
+    √ 34. deve calcular o 10º termo de Fibonacci
+    √ 35. deve calcular o produto de um array (1 ms)
+    √ 36. deve limitar valores abaixo, dentro e acima do intervalo
+    √ 37. deve verificar resultados verdadeiros e falsos de divisibilidade
+    √ 38. deve converter Celsius para Fahrenheit em dois pontos de referência
+    √ 39. deve converter Fahrenheit para Celsius em dois pontos de referência
+    √ 40. deve calcular o inverso de um número (1 ms)
+    √ 41. deve calcular a área de um círculo
+    √ 42. deve calcular a área de um retângulo
+    √ 43. deve calcular o perímetro de um retângulo
+    √ 44. deve distinguir maior, menor e igual na comparação estrita
+    √ 45. deve distinguir menor, maior e igual na comparação estrita
+    √ 46. deve comparar igualdade sem converter os tipos
+    √ 47. deve calcular a mediana de um array ímpar e ordenado
+    √ 48. deve calcular o dobro de um número
+    √ 49. deve calcular o triplo de um número
+    √ 50. deve calcular a metade de um número
+  Casos de limite, entradas negativas e caminhos alternativos
+    √ soma com negativo
+    √ subtração com resultado negativo (1 ms)
+    √ multiplicação por zero
+    √ multiplicação por negativo
+    √ divisão com negativo
+    √ divisão com resultado fracionário
+    √ potência com expoente zero
+    √ potência com expoente negativo
+    √ resto de divisão exata
+    √ MDC com mais de uma iteração (1 ms)
+    √ MDC com segundo operando zero
+    √ MMC de números coprimos
+    √ MMC com zero
+    √ raiz quadrada de 0 inclui o limite zero
+    √ raiz quadrada de 1 inclui o limite zero
+    √ raiz quadrada de 25 inclui o limite zero
+    √ raiz quadrada rejeita negativos com a mensagem esperada (1 ms)
+    √ fatorial(0) = 1
+    √ fatorial(1) = 1 (1 ms)
+    √ fatorial(2) = 2
+    √ fatorial(5) = 120
+    √ fatorial rejeita negativos com a mensagem esperada
+    √ soma vazia (1 ms)
+    √ soma com único elemento
+    √ soma com positivos e negativos
+    √ média vazia
+    √ média com único elemento
+    √ média fracionária (1 ms)
+    √ produto vazio
+    √ produto com único elemento
+    √ produto com zero
+    √ produto com negativos
+    √ máximo entre negativos
+    √ mínimo entre negativos
+    √ máximo rejeita array vazio com a mensagem esperada (1 ms)
+    √ mínimo rejeita array vazio com a mensagem esperada
+    √ mediana rejeita array vazio com a mensagem esperada
+    √ paridade de -2: par=true, ímpar=false (1 ms)
+    √ paridade de -1: par=false, ímpar=true
+    √ paridade de 0: par=true, ímpar=false
+    √ paridade de 1: par=false, ímpar=true
+    √ isPrimo(-3) = false
+    √ isPrimo(0) = false
+    √ isPrimo(1) = false
+    √ isPrimo(2) = true
+    √ isPrimo(4) = false (1 ms)
+    √ isPrimo(11) = true
+    √ fibonacci(0) = 0
+    √ fibonacci(1) = 1
+    √ fibonacci(2) = 1
+    √ fibonacci(3) = 2
+    √ clamp(0, 0, 10) = 0
+    √ clamp(10, 0, 10) = 10
+    √ clamp(-5, -3, -1) = -3
+    √ clamp(2, -3, -1) = -1 (1 ms)
+    √ clamp preserva o sinal do zero quando o valor já está no intervalo
+    √ converte -40 °C para -40 °F
+    √ converte 37 °C para 98.6 °F
+    √ inverso rejeita zero com a mensagem esperada
+    √ inverso de número negativo
+    √ mediana de [3,1,2] é 2
+    √ mediana de [10,2,1] é 2
+    √ mediana de [4,1,3,2] é 2.5
+    √ mediana de [9,1] é 5
+    √ mediana de [-1,-5,-3] é -3 (3 ms)
+    √ mediana de [7] é 7
+    √ mediana não altera o array recebido (1 ms)
+
+--------------|---------|----------|---------|---------|-------------------
+File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+--------------|---------|----------|---------|---------|-------------------
+All files     |     100 |      100 |     100 |     100 |                   
+ operacoes.js |     100 |      100 |     100 |     100 |                   
+--------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       117 passed, 117 total
+Snapshots:   0 total
+Time:        0.667 s, estimated 1 s
+Ran all test suites.
